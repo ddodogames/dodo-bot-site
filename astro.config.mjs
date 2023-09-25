@@ -4,22 +4,12 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
                site: "https://DodoGames7.github.io",
-               base: "/astro-site",
+               base: "/dodo-bot-site",
 	integrations: [
 		starlight({
 			title: 'dodoGames stuff',
-			defaultLocale: 'root',
-			locales: {
-				// English docs in `src/content/docs/en/`
-				root: {
-					label: 'English',
-					lang: 'en', // lang is required for root locales
-				},
-				ar: {
-					label: 'العربية',
-					lang: 'ar',
-					dir: 'rtl'
-				}
+			logo: {
+				src: './src/assets/dodo-bot.png',
 			},
 			customCss: [
 				// Use a custom theme
@@ -27,7 +17,7 @@ export default defineConfig({
 			],
 			lastUpdated: true,
 			social: {
-				github: 'https://github.com/DodoGames7/astro-site',
+				github: 'https://github.com/DodoGames7/Dodo-Bot',
 				discord: 'https://discord.gg/pFwKjAaZvj',
 				twitter: 'https://twitter.com/dodoGames14',
 				threads: 'https://www.threads.net/@dodogames14'
@@ -35,26 +25,25 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: "Home",
-					translations: { ar: 'الصفحة الرئيسية' },
 					items: [
-						{ label: 'Introduction', link: '/home/introduction', translations: { ar: 'مقدمة' }}
+						{ label: 'Introduction', link: '/home/about'},
+						{label: "Node.js Compliability", link: '/home/nodejs'}
 					],
 				},
 				{
 					label: 'General',
-					translations: { ar: 'عام' },
+					
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Projects', link: '/general/projects/', translations: { ar: 'مشاريع' } },
-						{ label: 'Codes', link: '/general/codes/', translations: { ar: 'الاكواد' } },
-						{ label: 'Other', link: '/general/other/', translations: { ar: 'غيره' } }
+						{ label: 'Projects', link: '/general/projects/'},
+						{ label: 'Codes', link: '/general/codes/'},
+						{ label: 'Other', link: '/general/other/'}
 					],
 					collapsed: true
 				},
 				{
 					label: 'Development',
 					autogenerate: { directory: 'development' },
-					translations: { ar: 'التطوير' },
 					collapsed: true
 				},
 			],
