@@ -1,0 +1,17 @@
+{
+  "name": "dodogamesstuff",
+  "type": "module",
+  "version": "2.0.8-beta.2",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.10.0",
+    "astro": "^3.1.0",
+    "sharp": "^0.32.3"
+  }
+}
