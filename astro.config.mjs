@@ -7,7 +7,7 @@ export default defineConfig({
                base: "/dodo-bot-site",
 	integrations: [
 		starlight({
-			title: 'dodoGames stuff',
+			title: 'Dodo-Bot',
 			logo: {
 				src: './src/assets/dodo-bot.png',
 			},
@@ -27,12 +27,12 @@ export default defineConfig({
 					label: "Home",
 					items: [
 						{ label: 'Introduction', link: '/home/about'},
-						{label: "Node.js Compliability", link: '/home/nodejs'}
+						{ label: "Node.js Compliability", link: '/home/nodejs'},
+						{ label: "Flags", link: '/home/flags'}
 					],
 				},
 				{
 					label: 'General',
-					
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Projects', link: '/general/projects/'},
