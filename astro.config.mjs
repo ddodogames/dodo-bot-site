@@ -36,8 +36,6 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Github Builds', link: '/advanced/gitbuilds/'},
-						{ label: 'Codes', link: '/general/codes/'},
-						{ label: 'Other', link: '/general/other/'}
 					],
 					collapsed: true
 				},
