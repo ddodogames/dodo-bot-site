@@ -12,6 +12,7 @@ This is for you if you're confused on what Node.js version is supported to run D
 | **v17** | ✅ | None |
 | **v18** | ✅ | None | 
 | **v20** | ✅ | None |
+| **v21** | ✅ | None |
 
 # Notes
 The reason v16 is not going to work properly is because as of September 12 2023, Node.js has ended support for v16 and so packages are subjected to migrate to latest Node.js version such as v18! Note that support for v16 may be eventually dropped.
