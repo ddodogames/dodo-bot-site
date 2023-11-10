@@ -30,3 +30,18 @@ npm install
 To setup the bot, go to the directory `handler` then `config.json` file to configure the setup options for the bot
 
 Once you're done, open the terminal and run `node .` and the bot should start. Have fun with testing!
+
+
+# Updating the build
+If you have git installed then it should be as easier as running a command in the terminal.
+
+Enter the following command inside the directory that contains the code:
+```js
+git pull
+```
+
+This will update the dev build to the latest version by pulling out the latest commit from Github that has the recent changes made to the bot.
+
+:::tip[Not using Git?]
+You may redownload the zip to update to the latest build as there's currently no method to update for non git OSes.
+:::
