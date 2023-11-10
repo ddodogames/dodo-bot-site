@@ -32,18 +32,13 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'General',
+					label: 'Advanced',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Projects', link: '/general/projects/'},
+						{ label: 'Github Builds', link: '/advanced/gitbuilds/'},
 						{ label: 'Codes', link: '/general/codes/'},
 						{ label: 'Other', link: '/general/other/'}
 					],
-					collapsed: true
-				},
-				{
-					label: 'Development',
-					autogenerate: { directory: 'development' },
 					collapsed: true
 				},
 			],
