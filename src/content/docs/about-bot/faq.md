@@ -15,7 +15,7 @@ You might need to use Stable in case of:
 * You just want to setup the main version not caring about other types of versions
 * Wanting the new features and improvements with bug fixes
 
-### Es version
+## ES
 Also, known as "Extended support". Versions in this type typically get backports from latest version that mostly consists of minor changes and bug fixes. Those versions were created with the purpose of preparing to face obstacles in case most recent stable version turned out to have issues that did not occur during the development. Versions in this state last up to 8 ES updates where support would be officially cut and move to the next ES version.
 
 ## Use cases
