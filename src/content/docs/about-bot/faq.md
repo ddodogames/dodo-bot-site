@@ -2,11 +2,11 @@
 title: Frequently asked questions
 ---
 
-# Which version should i use?
+## Which version should i use?
 It depends on what do you prefer most of the time when it comes to trying open source discord bots from Github. I will try to make it simple:
 
 
-# Stable
+## Stable
 The main official version of Dodo-Bot. Usually comes with new features and a bunch of bug fixes from development later on. It is commonly used most of the time as the name states. This is the recommended type of release for everyone due to obvious reasons.
 
 ## Use cases
