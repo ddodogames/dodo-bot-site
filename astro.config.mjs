@@ -43,6 +43,7 @@ export default defineConfig({
 					label: "Dodo-Bot",
 					items: [
 						{label: 'Release Types', link: '/about-bot/release-types'},
+						{label: "Frequently asked questions", link: "/about-bot/faq"},
 						{label: 'Credits', link: '/about-bot/credits'},
 					],
 					collapsed: true
