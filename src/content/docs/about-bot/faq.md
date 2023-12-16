@@ -25,3 +25,17 @@ You might need to use ES in case of:
 * You don't care about new features and only want to get stable updates
 * You aren't a fan of usually updating to next stable version
 
+## Beta
+Versions that have finished the development stage. They usually encounter new features and changes but may still have bugs however. These are still not suitable for public usage due to the fact that it's still in "beta" and things may subject to change anytime soon.
+
+### Use cases
+You might need to use Beta in case of:
+* Wanting to explore new features and on what's new in bot
+* Wanting to help stabilize the upcoming version before it reaches "Stable" release
+* Don't mind living with bugs and you only want latest bug fixes before being released to stable releases
+
+
+## Why are you using aoi.js as development primary focus? Shouldn't you switch to discord.js or even something much better?
+Back in the day, i was BDFD user and i had trouble with focusing on my projects. It was overtime difficult to keep each project running in the hosting considering that my phone's battery runs out very quick and watching ads was tiring. Sadly, with all of this, the premium stopped me completely from continuing on and i decided to switch to aoi.js for less restrictions..
+
+There were plans to switch to discord.js or something better but it was preferable imo to use smth similar to aoi.js as i wasn't ready to fully learn javascript to learn discord.js due to real life stuff. In the future, Dodo-Bot v3 may ditch aoi.js for something better but it's better off sticking to v2 for now as it's my last resort at creating a stable bot with fun experience.
