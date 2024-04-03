@@ -27,15 +27,14 @@ export default defineConfig({
 					label: "Home",
 					items: [
 						{ label: 'Introduction', link: '/home/about'},
-						{ label: "Node.js Compliability", link: '/home/nodejs'},
-						{ label: "Flags", link: '/home/flags'}
+						{ label: "Node.js Compliability", link: '/home/nodejs'}
 					],
 				},
 				{
 					label: 'Advanced',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Github Builds', link: '/advanced/gitbuilds/'},
+						{ label: 'GitBuilds', link: '/advanced/gitbuilds/'},
 					],
 					collapsed: true
 				},
