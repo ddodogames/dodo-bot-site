@@ -8,7 +8,7 @@ This is for you if you're confused on what Node.js version is supported to run D
 | **Older versions** | ❌ | None |
 | **v12** | ❌ | None |
 | **v14** | ❌ | None |
-| **v16** | ⚠  | May not work properly. Update to latest for better experience |
+| **v16** | ❌ | None |
 | **v17** | ❌ | None |
 | **v18** | ❌ | None | 
 | **v20** | ✅ | None |
