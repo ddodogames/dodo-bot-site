@@ -9,7 +9,7 @@ export default defineConfig({
 		starlight({
 			title: 'Dodo-Bot',
 			logo: {
-				src: './src/assets/dodo-bot.png',
+				src: './src/assets/dodo-bot-logo.png',
 			},
 			customCss: [
 				// Use a custom theme

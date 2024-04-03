@@ -9,10 +9,11 @@ This is for you if you're confused on what Node.js version is supported to run D
 | **v12** | ❌ | None |
 | **v14** | ❌ | None |
 | **v16** | ⚠  | May not work properly. Update to latest for better experience |
-| **v17** | ✅ | None |
-| **v18** | ✅ | None | 
+| **v17** | ❌ | None |
+| **v18** | ❌ | None | 
 | **v20** | ✅ | None |
 | **v21** | ✅ | None |
+Please note that starting from 2.1.0, you can only use node.js v20 to installing the bot. There's still a available build of 2.0.0 under ES release types but you will be missing out on many improvements since it's frozen on old stuff compared to the latest one seen in 2.1.0 and later.
 
 # I can run Dodo-Bot on any os?
 This depends on which OSes are supported by Node.js. Let's first show the examples: 

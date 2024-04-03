@@ -1,11 +1,12 @@
 ---
-title: Github Builds
+title: GitBuilds
 description: An introduction to upcoming versions of Dodo-Bot!
 ---
-Github Builds are development versions of the bot that still isn't ready to be considered as "stable" release. While usually new features or changes are introduced, there may be also bugs considering that this is a unfinished build which is why it's unrecommended for public use or to be used on public bots.
+GitBuilds are development versions of the bot hosted on Github that isn't ready to be considered as "stable" release. While usually new features or changes are introduced, there may be also bugs considering that they're unfinished builds which is why it's not recommended for public use as they're only meant for testing.
+
 
 # Installing
-Github Builds are obtainable through the branch [gitbuilds](https://github.com/dodogames7/Dodo-Bot/tree/gitbuilds).
+GitBuilds are obtainable through the branch [gitbuilds](https://github.com/dodogames7/Dodo-Bot/tree/gitbuilds).
 
 This guide will use local hosting for testing purposes for now but you can host the builds on any hosting such as Replit if needed for reasons.
 
@@ -19,15 +20,12 @@ You can also directly download the latest dev build [here](https://github.com/Do
 
 This should create a folder called `Dodo-Bot`
 
-Enter into the folder and run `npm install`:
+Now setting up the latest build should be as easy as:
 ```js
-cd Dodo-Bot
-
-// install command
-npm install
+cd Dodo-Bot && npm install
 ```
 
-To setup the bot, go to the directory `handler` then `config.json` file to configure the setup options for the bot
+To setup the bot, go to `config.json` and configure the available setup options for the bot.
 
 Once you're done, open the terminal and run `node .` and the bot should start. Have fun with testing!
 
@@ -40,7 +38,7 @@ Enter the following command inside the directory that contains the code:
 git pull
 ```
 
-This will update the dev build to the latest version by pulling out the latest commit from Github that has the recent changes made to the bot.
+This will update your current install to the latest development build by pulling out the latest files from the branch.
 
 :::tip[Not using Git?]
 You may redownload the zip to update to the latest build as there's currently no method to update for non git OSes.
