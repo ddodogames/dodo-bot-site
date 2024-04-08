@@ -2,7 +2,7 @@
 title: GitBuilds
 description: An introduction to upcoming versions of Dodo-Bot!
 ---
-GitBuilds are development versions of the bot hosted on Github that isn't ready to be considered as "stable" release. While usually new features or changes are introduced, there may be also bugs considering that they're unfinished builds which is why it's not recommended for public use as they're only meant for testing.
+GitBuilds are development versions of Dodo-Bot hosted on Github that isn't ready to be considered as "stable" release. While usually new features or changes are introduced, there may be also bugs considering that they're unfinished builds which is why it's not recommended for public use as they're only meant for testing.
 
 
 # Installing
