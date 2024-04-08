@@ -31,14 +31,14 @@ Once you're done, open the terminal and run `node .` and the bot should start. H
 
 
 # Updating the build
-If you have git installed then it should be as easier as running a command in the terminal.
+If you have git installed then it should be as easier as running a command in the terminal. It is also recommended to regular use `npm install` command as well as GitBuilds builds may sometimes update aoi.js development builds to latest
 
 Enter the following command inside the directory that contains the code:
 ```js
-git pull
+git pull && npm install
 ```
 
-This will update your current install to the latest development build by pulling out the latest files from the branch.
+This will update your current install to the latest development build by pulling out the latest files from the branch including updating the packages to their latest versions.
 
 :::tip[Not using Git?]
 You may redownload the zip to update to the latest build as there's currently no method to update for non git OSes.
