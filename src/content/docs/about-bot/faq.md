@@ -34,6 +34,12 @@ You might need to use Beta in case of:
 * Wanting to help stabilize the upcoming version before it reaches "Stable" release
 * Don't mind living with bugs and you only want latest bug fixes before being released to stable releases
 
+## Why are there build numbers in Pre-release builds?
+Build numbers are used for easy identification of each build in cases where the new build has few changes and was similar to the previous one. It was introduced during the development of CupcakeX and has since been used in other projects such as Dodo-Bot 2.1.0 builds, etc. Usually, they start with a random number then that number changes each time a new build was being worked on. 
+
+For instance, build 2066, a 2.1.0 build of Dodo-Bot was made with few changes then the build got jumped to 2070 due to the introduction of reworked stuff that were introduced there and the rest continues like that.
+
+
 
 ## Why do you use aoi.js as development primary focus? Shouldn't you switch to discord.js or even something much better?
 Back in the day, i was BDFD user and i had trouble with focusing on my projects. It was overtime difficult to keep each project running in the hosting considering that my phone's battery runs out very quick and watching ads was tiring. Sadly, with all of this, the premium stopped me completely from continuing on and i decided to switch to aoi.js for less restrictions..
