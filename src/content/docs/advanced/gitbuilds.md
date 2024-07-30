@@ -20,7 +20,11 @@ This guide will use local hosting for testing purposes for now but you can host 
 
 Obtaining the build using Git:
 ```js
+// installing v2 pre-release build
 git clone https://github.com/dodogames7/Dodo-Bot -b gitbuilds
+
+// installing rebase pre-release build
+git clone https://github.com/dodogames7/Dodo-Bot -b gitbuilds-rebase
 ```
 :::tip[Don't have Git installed?]
 You can also directly download the latest dev build [here](https://github.com/DodoGames7/Dodo-Bot/archive/refs/heads/gitbuilds.zip).
@@ -39,7 +43,7 @@ Once you're done, open the terminal and run `node .` and the bot should start. H
 
 
 # Updating the build
-If you have git installed then it should be as easier as running a command in the terminal. It is also recommended to regular use `npm install` command as well as GitBuilds builds may sometimes update aoi.js development builds to latest
+If you have git installed then it should be as easier as running a command in the terminal. It is also recommended to regular use `npm install` command as well as GitBuilds builds may sometimes update aoi.js development builds to latest. This will only work for fresh installations that didn't have the `config.json` file touched.
 
 Enter the following command inside the directory that contains the code:
 ```js

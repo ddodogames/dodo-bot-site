@@ -2,19 +2,21 @@
 title: Node.js Compliability
 ---
 
-This is for you if you're confused on what Node.js version is supported to run Dodo-Bot! This contains a list of what Node.js version is supported and what is not. If your Node.js is not supported then it is recommended to update it to a supported version of Node.js.
+This is for you if you're confused on what Node.js version is supported to run Dodo-Bot! This contains a list of what Node.js versions are supported and what is not. If your Node.js is not supported then it is recommended to update it to a supported version of Node.js.
 | Node.js | Supported? | Notes |
 |--------|--------|--------|
 | **Older versions** | ❌ | None |
 | **v12** | ❌ | None |
 | **v14** | ❌ | None |
-| **v16** | ❌ | None |
-| **v17** | ❌ | None |
-| **v18** | ❌ | None | 
+| **v16** | ☑️ | Only supported in Rebase version |
+| **v17** | ☑️ | Only supported in Rebase version |
+| **v18** | ☑️ | Only supported in Rebase version |
+| **v19** | ☑️ | Only supported in Rebase version |
 | **v20** | ✅ | None |
 | **v21** | ✅ | None |
+| **v22** | ✅ | None |
 
-Please note that starting from 2.1.0, you can only use node.js v20 and later to installing the bot. There's still a available build of 2.0.0 under ES release types but you will be missing out on many improvements since it's frozen on old stuff compared to the latest one seen in 2.1.0 and later.
+Please note that starting from in Dodo-Bot v2 2.1.0, you can only use node.js v20 and later to be able to use the bot. Node.js earlier up to v16 can only be used on the official Rebase version of the bot.
 
 # I can run Dodo-Bot on any os?
 This depends on which OSes are supported by Node.js. Let's first show the examples: 
@@ -30,5 +32,3 @@ Linux should work always so you will likely have no trouble running Dodo-Bot on 
 ## On MacOS
 MacOS has no official support list by Apple and therefore may depend by Node.js team on support for each release so it is recommended to run the latest otherwise if it works on older versions then go ahead.
 
-# Notes
-The reason v16 is not going to work properly is because as of September 12 2023, Node.js has ended support for v16 and so packages are subjected to migrate to latest Node.js version such as v18! Note that support for v16 may be eventually dropped.
