@@ -16,7 +16,7 @@ This is for you if you're confused on what Node.js version is supported to run D
 | **v21** | ✅ | None |
 | **v22** | ✅ | None |
 
-Please note that starting from in Dodo-Bot v2 2.1.0, you can only use node.js v20 and later to be able to use the bot. Node.js earlier up to v16 can only be used on the official Rebase version of the bot.
+Please note that starting from in Dodo-Bot 2.1.0 (v2), you can only use node.js v20 and later to be able to use the bot. Node.js earlier up to v16 can only be used on the official Rebase version of the bot.
 
 # I can run Dodo-Bot on any os?
 This depends on which OSes are supported by Node.js. Let's first show the examples: 
