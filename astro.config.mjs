@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-               site: "https://DodoGames7.github.io",
+               site: "https://ddodogames.github.io",
                base: "/dodo-bot-site",
 	integrations: [
 		starlight({
@@ -17,7 +17,7 @@ export default defineConfig({
 			],
 			lastUpdated: true,
 			social: {
-				github: 'https://github.com/DodoGames7/Dodo-Bot',
+				github: 'https://github.com/ddodogames/Dodo-Bot',
 				discord: 'https://discord.gg/pFwKjAaZvj',
 				twitter: 'https://twitter.com/dodoGames14',
 				threads: 'https://www.threads.net/@dodogames14'
