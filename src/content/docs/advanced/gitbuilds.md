@@ -9,6 +9,7 @@ There're 3 ways of testing GitBuilds. These are being:
 * Downloading a released Pre-release build through [releases](https://github.com/ddodogames/Dodo-Bot/releases)
 * Downloading the latest incomplete Pre-release build of a upcoming GitBuilds build
 * Inviting [Official Dodo-Bot Canary bot](https://discord.com/api/oauth2/authorize?client_id=970481494797738016&scope=bot+applications.commands&permissions=36032) into your server to directly test the latest Pre-release builds
+  * If you have invited the bot to a server, the prefix is `d?` so make sure to remember that in order to use it.
 
 
 For now, The installation method will focus on downloading the latest incomplete builds but feel free to use the other methods listed above!
