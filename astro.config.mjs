@@ -18,7 +18,7 @@ export default defineConfig({
 			lastUpdated: true,
 			social: {
 				github: 'https://github.com/ddodogames/Dodo-Bot',
-				discord: 'https://discord.gg/pFwKjAaZvj',
+				discord: 'https://discord.gg/byWrX92yx3',
 				twitter: 'https://twitter.com/dodoGames14',
 				threads: 'https://www.threads.net/@dodogames14'
 			},

@@ -6,7 +6,7 @@ GitBuilds are development versions of Dodo-Bot hosted on Github that isn't ready
 
 # Methods of testing
 There're 3 ways of testing GitBuilds. These are being:
-* Downloading a released Pre-release build through [releases](https://github.com/DodoGames7/Dodo-Bot/releases)
+* Downloading a released Pre-release build through [releases](https://github.com/ddodogames/Dodo-Bot/releases)
 * Downloading the latest incomplete Pre-release build of a upcoming GitBuilds build
 * Inviting [Official Dodo-Bot Alpha bot](https://discord.com/api/oauth2/authorize?client_id=970481494797738016&scope=bot+applications.commands&permissions=36032) into your server to directly test the latest Pre-release builds
 
@@ -14,20 +14,20 @@ There're 3 ways of testing GitBuilds. These are being:
 For now, The installation method will focus on downloading the latest incomplete builds but feel free to use the other methods listed above!
 
 # Installing
-GitBuilds are obtainable through the branch [gitbuilds](https://github.com/dodogames7/Dodo-Bot/tree/gitbuilds).
+GitBuilds are obtainable through the branch [gitbuilds](https://github.com/ddodogames/Dodo-Bot/tree/gitbuilds).
 
 This guide will use local hosting for testing purposes for now but you can host the builds on any hosting such as Replit if needed for reasons.
 
 Obtaining the build using Git:
 ```js
 // installing v2 pre-release build
-git clone https://github.com/dodogames7/Dodo-Bot -b gitbuilds
+git clone https://github.com/ddodogames/Dodo-Bot -b gitbuilds
 
 // installing rebase pre-release build
-git clone https://github.com/dodogames7/Dodo-Bot -b gitbuilds-rebase
+git clone https://github.com/ddodogames/Dodo-Bot -b gitbuilds-rebase
 ```
 :::tip[Don't have Git installed?]
-You can also directly download the latest dev build [here](https://github.com/DodoGames7/Dodo-Bot/archive/refs/heads/gitbuilds.zip).
+You can also directly download the latest dev build [here](https://github.com/ddodogames/Dodo-Bot/archive/refs/heads/gitbuilds.zip).
 :::
 
 This should create a folder called `Dodo-Bot`
@@ -43,15 +43,7 @@ Once you're done, open the terminal and run `node .` and the bot should start. H
 
 
 # Updating the build
-If you have git installed then it should be as easier as running a command in the terminal. It is also recommended to regular use `npm install` command as well as GitBuilds builds may sometimes update aoi.js development builds to latest. This will only work for fresh installations that didn't have the `config.json` file touched.
 
-Enter the following command inside the directory that contains the code:
-```js
-git pull && npm install
-```
+You may redownload the latest build's files to do this. Then you can simply go back to your current installation of the build you're running and replace all of the files with the latest ones. Ensure that you have your bot token saved before doing this.
 
-This will update your current install to the latest development build by pulling out the latest files from the branch including updating the packages to their latest versions.
-
-:::tip[Not using Git?]
-You may redownload the zip to update to the latest build as there's currently no method to update for non git OSes.
-:::
+Then you're good to go after doing all of this and starting the bot.
