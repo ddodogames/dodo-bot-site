@@ -13,7 +13,7 @@ There're currently 3 versions of the bot:
 | Version | Supported? | Latest version | 
 |--------|--------|--------|
 | **V1** | ❌ | 1.7.0-1 |
-| **V2 (default)** | ✅ | 2.1.3  |
+| **V2 (default)** | ✅ | 2.2.1  |
 | **V3 (not ready)** | ✅ | 3.0.0 |    
-| **Rebase** | ✅ | 2.3.0 (Preview) |
+| **Rebase** | ✅ | 1.2.4 |
 
