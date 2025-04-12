@@ -3,8 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-               site: "https://ddodogames.github.io",
-               base: "/dodo-bot-site",
+	site: "https://ddodogames.github.io",
+	base: "/dodo-bot-site",
 	integrations: [
 		starlight({
 			title: 'Dodo-Bot',
@@ -16,12 +16,11 @@ export default defineConfig({
 				'./src/themes/theme2.css',
 			],
 			lastUpdated: true,
-			social: {
-				github: 'https://github.com/ddodogames/Dodo-Bot',
-				discord: 'https://discord.gg/byWrX92yx3',
-				twitter: 'https://twitter.com/dodoGames14',
-				threads: 'https://www.threads.net/@dodogames14'
-			},
+			social: [
+			{ icon: "github", label: "Github", href: "https://github.com/ddodogames/Dodo-Bot" },
+			{ icon: "discord", label: "Discord", href: "https://discord.gg/7ZgYtGDNzs" },
+			{ icon: "blueSky", label: "blueSky", href: "https://bsky.app/profile/dodogames.bsky.social" }
+			],
 			sidebar: [
 				{
 					label: "Home",
@@ -34,7 +33,7 @@ export default defineConfig({
 					label: 'Advanced',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'GitBuilds', link: '/advanced/gitbuilds/'},
+						{ label: 'Canary', link: '/advanced/canary/'},
 					],
 					collapsed: true
 				},

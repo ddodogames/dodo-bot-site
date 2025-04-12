@@ -1,7 +1,7 @@
 {
-  "name": "dodogamesstuff",
+  "name": "dodo-bot-site",
   "type": "module",
-  "version": "2.0.8-beta.2",
+  "version": "2.1.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,8 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.10.0",
-    "astro": "^3.1.0",
-    "sharp": "^0.32.3"
+    "@astrojs/starlight": "^0.33.1",
+    "astro": "^5.6.1",
+    "sharp": "^0.32.5"
   }
 }
