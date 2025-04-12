@@ -4,7 +4,7 @@ title: Canary
 # What is Canary?
 Canary are development versions of Dodo-Bot stored in a separate branch of our Github repo. These pre-releases may sometimes contain breaking changes, improvements, bug fixes and possibly removal of some stuff. It is not recommended to use them daily for personal usage as they may contain bugs.
 
-During the phase of a version still on Canary, you will given a chance to report the bugs early before they slip through cracks and reach the next stable release.
+During the phase of a version still on Canary, you will be able to report the bugs early before they slip through cracks and reach the next stable release.
 
 # Methods of testing
 There're 3 ways of testing Canary version. These are being:
@@ -43,14 +43,14 @@ npm install // install the required packages
 
 To setup the bot, go to `config.js` and configure the available setup options for the bot.
 
-Once you're done, open the terminal and run `node .` and the bot should start. Have fun with testing!
+Once you're done, open the terminal and run `node .` and the bot should start. Have fun testing!
 
 
 # Updating the install
-Since 2.2.3, Support for updating the Canary builds to latest changes is possible without redownloading them.
+Since 2.2.3, Support for updating Installs to latest changes is possible without redownloading the latest build.
 
 :::note
-This only works if you have Git installed
+This only works if you have Git installed.
 :::
 
 Go to the directory of the current install you have and simply run this in terminal:
