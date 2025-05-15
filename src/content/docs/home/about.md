@@ -15,5 +15,5 @@ There're currently 3 versions of the bot:
 | **V1** | ❌ | 1.7.0-1 |
 | **V2 (current)** | ✅ | 2.2.3  |
 | **V3 (not ready)** | ✅ | 3.0.0 |    
-| **Rebase** | ✅ | 1.2.6 |
+| **Rebase** | ✅ | 3.0.0 |
 
