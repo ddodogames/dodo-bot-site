@@ -1,5 +1,8 @@
+// @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightThemeNext from 'starlight-theme-next'
+import starlightContextualMenu from "starlight-contextual-menu";
 
 // https://astro.build/config
 export default defineConfig({
@@ -7,49 +10,43 @@ export default defineConfig({
 	base: "/dodo-bot-site",
 	integrations: [
 		starlight({
+			plugins: [starlightThemeNext(),
+		    starlightContextualMenu({
+			actions: ["copy", "view"]
+			}],
 			title: 'Dodo-Bot',
 			logo: {
-				src: './src/assets/dodo-bot-logo.png',
+				src: './src/assets/logo.png',
 			},
-			customCss: [
-				// Use a custom theme
-				'./src/themes/theme2.css',
+			social: [
+				{ icon: "github", label: "Github", href: "https://github.com/ddodogames/Dodo-Bot" },
+				{ icon: "discord", label: "Discord", href: "https://discord.gg/7ZgYtGDNzs" },
 			],
 			lastUpdated: true,
-			social: [
-			{ icon: "github", label: "Github", href: "https://github.com/ddodogames/Dodo-Bot" },
-			{ icon: "discord", label: "Discord", href: "https://discord.gg/7ZgYtGDNzs" },
-			{ icon: "blueSky", label: "blueSky", href: "https://bsky.app/profile/dodogames.bsky.social" }
-			],
 			sidebar: [
 				{
-					label: "Home",
+					label: 'Home',
 					items: [
-						{ label: 'Introduction', link: '/home/about'},
-						{ label: "Node.js Compliability", link: '/home/nodejs'}
+						// Each item here is one entry in the navigation menu.
+						{ label: 'About Dodo-Bot', link: '/home/about'},
+						{ label: 'Credits', link: '/home/credits'},
+					],
+				},
+				{
+					label: 'Getting started',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Installation', link: '/getting-started/install'}
 					],
 				},
 				{
 					label: 'Advanced',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Canary', link: '/advanced/canary/'},
+						{ label: 'Canary', link: '/advanced/canary'},
 					],
-					collapsed: true
 				},
-				{
-					label: "Dodo-Bot",
-					items: [
-						{label: 'Release Types', link: '/about-bot/release-types'},
-						{label: "Frequently asked questions", link: "/about-bot/faq"},
-						{label: 'Credits', link: '/about-bot/credits'},
-					],
-					collapsed: true
-				}
 			],
 		}),
 	],
-
-	// Process images with sharp: https://docs.astro.build/en/guides/assets/#using-sharp
-	image: { service: { entrypoint: 'astro/assets/services/sharp' } },
 });
