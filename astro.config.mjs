@@ -12,7 +12,7 @@ export default defineConfig({
 		starlight({
 			plugins: [
 			starlightThemeNext(),
-		    starlightContextualMenu(actions: ["copy", "view"])
+		    starlightContextualMenu({actions: ["copy", "view"]})
 			],
 			title: 'Dodo-Bot',
 			logo: {
