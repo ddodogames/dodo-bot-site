@@ -3,11 +3,11 @@ title: Credits
 ---
 
 ## Dodo-Bot v3
-* dodogames - Developer of the bot
-* chairsnifferelite - Inspiration to improve some commands
-* saiaamako - For some ideas
-* BotForge server - For a lot of help
-* z4py - For the Dodo-Bot logo
+* **dodogames** - Developer of the bot
+* **chairsnifferelite** - Inspiration to improve some commands
+* **saiaamako** - For some ideas
+* **BotForge server** - For a lot of help
+* **z4py** - For the Dodo-Bot logo
 * [discotools.xyz](https://discotools.xyz/icons-editor) - For most of the icons used in commands
 
 ## Dodo-Bot v2

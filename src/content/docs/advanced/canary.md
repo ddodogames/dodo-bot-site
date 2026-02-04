@@ -20,7 +20,7 @@ Simply run this in the terminal:
 git clone -b canary https://github.com/ddodogames/Dodo-Bot
 ```
 
-For the rest of the install steps, Follow the [Setting up the bot](dodo-bot-site/getting-started/install#setting-up-the-bot) section from the [Installation](dodo-bot-site/getting-started/install) page.
+For the rest of the install steps, Follow the [Setting up the bot](https://ddodogames.github.io/dodo-bot-site/getting-started/install#setting-up-the-bot) section from the [Installation](https://ddodogames.github.io/dodo-bot-site/getting-started/install) page.
 
 ### Without installing
 Simply invite the [official Canary bot](https://discord.com/api/oauth2/authorize?client_id=970481494797738016&scope=bot+applications.commands&permissions=36032) into your server and start using the bot using the prefix `d?`.
