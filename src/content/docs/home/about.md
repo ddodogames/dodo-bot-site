@@ -1,6 +1,6 @@
 ---
 title: About Dodo-Bot
-description: A personal bot project made in aoi.js v6 aiming to both entertain and provide users some features to use.
+description: A personal bot project aiming to both entertain and provide users some features to use.
 ---
 
 ## What is this
@@ -16,3 +16,4 @@ I was fed up with some verified bot in the wild called MEE6 and so i decided to 
 | **V1** | ❌ | 1.7.0-1 | |
 | **V2** | ✅ | 2.2.7  | Maintained temporarily as LTS. |
 | **V3 (current)** | ✅ | 3.0.2 | Previously called "Rebase". |
+| **canary** | ✅ | 3.0.3 | Codename for newest codebase changes. |
