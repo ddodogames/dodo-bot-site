@@ -14,5 +14,5 @@ I was fed up with some verified bot in the wild called MEE6 and so i decided to 
 | Version | Supported? | Latest version | Notes | 
 |--------|--------|--------|--------|
 | **V1** | ❌ | 1.7.0-1 | |
-| **V2** | ✅ | 2.2.7  | Maintained temporarily as LTS |
-| **V3 (current)** | ✅ | 3.0.2 | Previously called "Rebase" |
+| **V2** | ✅ | 2.2.7  | Maintained temporarily as LTS. |
+| **V3 (current)** | ✅ | 3.0.2 | Previously called "Rebase". |
