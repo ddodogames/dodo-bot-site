@@ -10,10 +10,10 @@ export default defineConfig({
 	base: "/dodo-bot-site",
 	integrations: [
 		starlight({
-			plugins: [starlightThemeNext(),
-		    starlightContextualMenu({
-			actions: ["copy", "view"]
-			}],
+			plugins: [
+			starlightThemeNext(),
+		    starlightContextualMenu(actions: ["copy", "view"])
+			],
 			title: 'Dodo-Bot',
 			logo: {
 				src: './src/assets/logo.png',
