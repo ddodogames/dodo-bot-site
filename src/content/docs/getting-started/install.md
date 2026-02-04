@@ -3,7 +3,7 @@ title: Installation
 description: This page is dedicated to how to install Dodo-Bot and set it up.
 ---
 
-# Getting the source code
+## Getting the source code
 To get started, you will need to download the bot's source code either by manually browsing the repo then downloading it as a ZIP file or by using Git directly through `git clone`
 
 ### Manually
@@ -22,14 +22,14 @@ git clone -b v2 https://github.com/ddodogames/Dodo-Bot
 
 a Folder called "Dodo-Bot" should appear in the directory where you executed the command in.
 
-# Setting up the bot
+## Setting up the bot
 Open the folder containing the bot's code and look for a `config.js` file. 
 
 All options in the config are described [here](https://github.com/ddodogames/Dodo-Bot#configuration).
 
 Once you're done, execute `npm install` to install the required packages from `package.json` file and then execute `node index.js` to start the bot!
 
-# Done!
+## Done!
 You're now set! Enjoy using the bot! :>
 
 

@@ -3,10 +3,10 @@ title: Canary
 description: A page about Canary and how to use them.
 ---
 
-# What is Canary?
+## What is Canary?
 Canary is a codename for the absolute newest codebase changes in Dodo-Bot's code. It's the primary place to develop upcoming versions of the bot and as such it may have latest changes and bugs too.
 
-# Using Canary
+## Using Canary
 The installation steps are pretty much the same as in the "Installation" page but you may need to slightly change the way the source code is obtained.
 
 ### Manually (not recommended)
